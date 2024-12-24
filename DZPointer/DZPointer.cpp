@@ -128,8 +128,6 @@ int main()
     ptr_arr += 2;
 
     cout << *ptr_arr << endl;
-    cout << ptr_arr << endl;
-
 }
 
 
