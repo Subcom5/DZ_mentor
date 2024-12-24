@@ -4,6 +4,7 @@
  *  2. Указатели как параметры функции
  *  3. Функции возвращающие указатели или ссылки
  *  4. Арифметика указателей
+ *
  */
 #include <iostream>
 using std::cout, std::endl;
@@ -125,8 +126,9 @@ int main()
     int arr1[]{1, 3, 4, 7, 8};
     int *ptr_arr = &arr1[2];
     ptr_arr += 2;
-    cout << *ptr_arr << endl;
 
+    cout << *ptr_arr << endl;
+    cout << ptr_arr << endl;
 
 }
 
